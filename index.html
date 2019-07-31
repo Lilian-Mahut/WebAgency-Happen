@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <link rel="icon" href="style/medias/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/swiper.min.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Happening_</title>
   </head>
@@ -21,48 +26,29 @@
       <span class="slider round"></span>
     </label>
 
-    <div id="header-navbar">
-
-      <div id="header-logo-container">
-        <img id="header-logo" src="style/medias/logo.png" alt="logo">
+    <div class="header-logo-container">
+      <div class="header-logo">
+        <img src="style/medias/logo.png" alt="bg-logo">
       </div>
-
-      <div id="header-jaune-container">
-        <img id="header-jaune" src="style/medias/calquejaune.png" alt="background logo">
+      <div class="header-yellow">
+        <img src="style/medias/header-yellow-bg.png" alt="bg-yellow">
       </div>
-
-      <div class="menu">
-          <button class="nav-tgl" type="button" aria-label="toggle menu">
-            <span aria-hidden="true"></span>
-          </button>
-          <nav class="nav">
-            <ul>
-              <li><a href="#s1">Agence</a></li>
-              <li><a href="#s2">Services</a></li>
-              <li><a href="#s3">Travaux</a></li>
-              <li><a href="#s4">Formules</a></li>
-              <li><a href="#s5">Equipe</a></li>
-              <li><a href="#s6">Nous contacter</a></li>
-            </ul>
-          </nav>
-        </div>
-
     </div>
     
-    <div id="photo">
-      <img src="style/medias/photohp.jpg">
+    <div class="header-photo">
+      <img src="style/medias/header-photo-bg.jpg" alt="bg-event">
     </div>
 
-    <div id="titre" class="titres">
-      <img src="style/medias/title-agence.png">
+    <div class="header-agency">
+      <img src="style/medias/header-agency-bg.png" alt="bg-title-agency">
     </div>
     
-    <div id="soustitre" class="titres">
-      <img src="style/medias/title-sub.png">
+    <div class="header-sub">
+      <img src="style/medias/header-sub-bg.png" alt="bg-subtitle">
     </div>
 
-    <div id="socialmedia">
-      <div id="icones">
+    <div class="socialmedia">
+      <div class="icones">
         <a href="#"><i class="fab fa-behance"></i></a>
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -75,7 +61,9 @@
   <!-- START SECTION 1 -->
   <section class="s1">
 
-    <img class="s1-title-bg" src="style/medias/title-sites.png">
+    <div class="s1-title-bg">
+      <img src="style/medias/s1-title-bg.png" alt="bg-sites">
+    </div>
     
     <div class="s1-carré1"></div>
     <div class="s1-carré2">
@@ -83,13 +71,17 @@
         <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates eius doloribus cum, minima et consectetur repudiandae facere repellat odit optio ex adipisci fuga eligendi, exercitationem corrupti perferendis, debitis dignissimos dolores!
         <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae velit exercitationem nihil dolor, ipsam itaque! Cum quaerat nihil nesciunt, labore nulla ducimus suscipit quos veritatis omnis nemo reprehenderit modi quis.
       </p>
-      <button>Pour en savoir plus, appelez-nous!</button> 
+      <input class="s1-btn" type="submit" value="Pour en savoir plus, appelez-nous !">
     </div>
 
   </section>
 
   <!-- START SECTION 2 -->
   <section class="s2">
+
+    <div class="s2-bg-title">
+      <img src="style/medias/s2-bg-title.png" alt="bg-identité">
+    </div>
 
     <div class="s2-bloc1">
       <p class="s2-title">Définir le design de votre site.</p>
@@ -106,37 +98,61 @@
       <p class="s2-text">Votre site une fois créé, nos équipes seront à même d’en assurer la promotion et la maintenance grâce à nos outils de référencements et nos connaissances en community management.</p>
     </div>
 
-    <img class="s2-bg-title" src="style/medias/title-identite.png" alt="rectangle blanc" />
-
   </section>
 
   <!-- START SECTION 3 -->
   <section id="s3">
 
-    <img class="s3-bg-title" src="style/medias/title-projets.png" alt="fond-titre-P4">
+    <div class="s3-bg-title">
+      <img src="style/medias/s3-bg-title.png" alt="bg-offres">
+    </div>
 
     <div class="s3-slide-container">
-      <div class="s3-slides">
 
-          <img class="s3-slide1" src="style/medias/try1.gif" alt="website1">
-          <img class="s3-slide2" src="style/medias/try2.gif" alt="website2">
-          <img class="s3-slide3" src="style/medias/try3.gif" alt="website3">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-95" src="style/medias/try1.gif" alt="First slide">
+          </div>
+  
+          <div class="carousel-item">
+            <img class="d-block w-95" src="style/medias/try2.gif" alt="Second slide">
+          </div>
+  
+          <div class="carousel-item">
+            <img class="d-block w-95" src="style/medias/try3.gif" alt="Third slide">
+          </div>
 
-      </div>
-    </div>
+          <div class="carousel-item">
+            <img class="d-block w-95" src="style/medias/try4.gif" alt="Fourth slide">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-95" src="style/medias/try5.gif" alt="Fiveth slide">
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-95" src="style/medias/try6.gif" alt="Sixth slide">
+          </div>
+  
+        </div>
+
+    </div>    
 
   </section>
 
   <!-- START SECTION 4 -->
   <section id="s4">
 
-    <img class="s4-bg-title" src="style/medias/title-offres.png" alt="bg-offres">
+    <div class="s4-bg-title">
+      <img src="style/medias/s4-bg-title.png" alt="bg-offres">
+    </div>
 
-    <div class="s4-container">
       <div class="s4-formule">
         <div class="s4-cadre">
           <div class="s4-titre">
-            <p>LA MINI</p>
+            <p>BASIC</p>
           </div>
         </div>
         <div class="s4-texte">
@@ -146,29 +162,25 @@
             <p>Lire la suite...</p>
         </div>
       </div>
-    </div>
 
-    <div class="s4-container">
       <div class="s4-formule">
         <div class="s4-cadre">
           <div class="s4-titre">
-            <p>LA PRATIQUE</p>
+            <p>PRO</p>
           </div>
         </div>
         <div class="s4-texte">
           <p>Une formule passe-partout: on s'occupe de<br>
             votre logo, on créé le site et on gère le référencement.<br>
-            le reste, c'est entre vos mains!</p>
+            Le reste, c'est entre vos mains !</p>
             <p>Lire la suite...</p>
         </div>
       </div>
-    </div>
 
-    <div class="s4-container">
       <div class="s4-formule">
         <div class="s4-cadre">
           <div class="s4-titre">
-            <p>LA TOTALE</p>
+            <p>PREMIUM</p>
           </div>
         </div>
         <div class="s4-texte">
@@ -179,31 +191,57 @@
             <p>Lire la suite...</p>
         </div>
       </div>
-    </div>
 
   </section>
 
   <!-- START SECTION 5 -->
   <section id="s5">
 
-    <div class="s5-container">
+    <div class="s5-bg-title">
+      <img src="style/medias/s5-bg-title.png" alt="team-bg">
+    </div>
 
-      <div class="s5-button" onclick="shiftLeft()">
-        <img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt="">
-      </div>
+    <div class="s5-team-container">
 
-      <div class="s5-team-container">
-        <img class="s5-bg-title" src="style/medias/title-team.png">
-        <ul class="s5-team-slide">
-          <div class="s5-member"><img src="style/medias/character1.png"></div>
-          <div class="s5-member"><img src="style/medias/character2.png"></div>
-          <div class="s5-member"><img src="style/medias/lilian.png"></div>
-          <div class="s5-member"><img src="style/medias/character3.png"></div>     
-        </ul>
-      </div>
-
-      <div class="s5-button" onclick="shiftRight()">
-        <img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt="">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <img src="style/medias/character1.jpg">
+            </div>
+            <div class="details">
+              <h3>Chuck Norris<br><span>Business Manager</span></h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <img src="style/medias/character2.jpg">
+            </div>
+            <div class="details">
+              <h3>Emmet Brown<br><span>Developpeur Manager</span></h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <img src="style/medias/character0.jpg">
+            </div>
+            <div class="details">
+              <h3>Lilian Mahut<br><span>Fondateur</span></h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="imgBx">
+              <img src="style/medias/character3.jpg">
+            </div>
+            <div class="details">
+              <h3>Penny Orfchtader<br><span>Community Manager</span></h3>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Add Arrows -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
 
     </div>
@@ -213,7 +251,9 @@
   <!-- START SECTION 6 -->
   <section id="s6">
 
-    <img class="fond-titre" src="style/medias/title-contact.png" alt="fond blanc du titre">
+    <div class="s6-bg-title">
+      <img src="style/medias/s6-bg-title.png" alt="contact-bg">
+    </div>
 
     <div class="s6-form-container">
 
@@ -244,7 +284,7 @@
 
       <div class="footer-middle">
         <img class="footer-logo" src="style/medias/logo.png" alt="logo">
-        <p class="footer-copyright">Made with ❤ and a lot of coffee<br><br>
+        <p class="footer-copyright"><br>Made with ❤ and a lot of coffee<br>
         2019 Simplon © Tous droits réservés</p>
       </div>
 
@@ -257,7 +297,26 @@
   </footer>
   <!-- partial -->
   <script src="style/js/toggle.js"></script>
-  <script src="style/js/menu.js"></script>
-  <script src='style/js/slider.js'></script>
+  <script src='style/js/carousel.js'></script>
+  <script src='style/js/swiper.min.js'></script>
+  <!-- Initialize Swiper -->
+  <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'flip',
+        grabCursor: true,
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+  </script>
+
+  <!-- OPTIONNAL JAVASCRIPT BOOTSTRAP -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
