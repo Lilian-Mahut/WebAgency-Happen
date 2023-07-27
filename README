@@ -1,0 +1,53 @@
+#**1er projet fil rouge à Simplon.co**
+##Création du site web d'une agence web fictive
+
+####Consignes
+● Lisez attentivement toutes les consignes.
+● Pensez à créer votre répertoire en début de journée et à envoyer votre travail via git !
+
+Nom du répertoire : Project_fil_rouge
+Langage : Shell, HTML, CSS, SASS, Javascript
+
+####Objectif
+En équipe de 4, le but sera de concevoir le site de votre agence web.
+Les équipes se feront aléatoirement.
+
+Définir un responsable pour :
+❏ la gestion du projet (trello, temps, le design, le contenu)
+❏ le versionning avec git
+❏ le respect du cahier des charge
+❏ l’organisation du code
+
+####Fonctionnalitées
+❏ Présentation de vos services.
+❏ Présentation de vos profils et vos fonctions au sein de l’agence.
+❏ Un bouton toggle permettant de changer le thème de la page (background clair ou foncé)
+❏ Le thème choisi pourra être enregistrer dans le localStorage pour qu’il soit toujours par
+défaut.
+❏ Un formulaire de contact
+Rendu
+❏ Des Wireframes de la conception de votre site qui vous permettront d’avoir une vision claire
+et de mieux architecturer votre code.
+❏ Un trello avec la méthode Kanban (Todo, Doing, Done)
+❏ Un répertoire Github avec une organisation claire de vos commits, chaque personne doit
+participer. (git log)
+❏ Toutes vos feuilles de styles doivent être validées avec CSS Validator.
+Le design doit être un minimum dans l’air du temp, voici un peu d’inspiration pour vous les
+développeurs : https://collectui.com/challenges/landing-page , n’hésitez pas à faire de la
+veille concurrentielle.
+
+####Contraintes techniques
+❏ Un code propre avec une bonne indentation
+❏ Utilisation des balises sectionnantes
+❏ Utilisation des flexbox
+❏ Utilisation de SASS
+❏ Site responsive sur tablette et téléphone
+❏ Minimum 3 animations avec Javascript selon les évènements écoutés
+❏ Un changement de classes css dynamiquement avec du javascript
+❏ Utilisation d’une librairie javascript (facultatif)
+
+####Présentation
+15 min de présentation par équipe :
+❏ 5 min sur votre organisation (trello, veille concurrence, git/github).
+❏ 5 min sur la présentation du site.
+❏ 5 min sur l’organisation du code.
